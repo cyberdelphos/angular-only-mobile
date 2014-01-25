@@ -1,0 +1,1 @@
+var appFilters = angular.module('OnlyMobile.filters', []);

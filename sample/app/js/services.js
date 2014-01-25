@@ -1,0 +1,1 @@
+var appServ = angular.module('OnlyMobile.services');

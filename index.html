@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>angular-only-mobile by alejandrocarrasco</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">angular-only-mobile</h1>
+        <p class="header">Directive for displaying different html elements on mobile and not mobile browsers using only one page.</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/alejandrocarrasco/angular-only-mobile/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/alejandrocarrasco/angular-only-mobile/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/alejandrocarrasco/angular-only-mobile">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/alejandrocarrasco">alejandrocarrasco</a></p>
+
+
+      </header>
+      <section>
+        <h3>Welcome to angular-only-mobile repository.</h3>
+
+<p>Clone this repository:</p>
+
+<pre><code>$ git clone https://github.com/alejandrocarrasco/angular-only-mobile.git</code></pre>
+
+<p>If you're using the GitHub for Mac, simply sync this repository and you'll see the new branch.</p>
+
+<h3>Description</h3>
+
+<p>
+    This repository contains the directive 'only-mobile' that works with <a href="http://angularjs.org/" target="_blank">AngularJS</a>.
+</p>
+<p>
+    This directive makes it simple to show html elements in web browsers and mobile browsers using the same html page.
+</p>
+
+<h3>Usage</h3>
+
+<p>To use this directive you have to:
+    <ol>
+          <li>Add the 'onlyMobile' directive included in directives.js file directly to your directives folder/file.</li>
+          <li>Append the attribute '<code>only-mobile</code>' to your html element</li>
+          <li>Set the value for visibility under mobile browsers:
+              <ul>
+                  <li>Displayable ONLY in MOBILE browsers:
+                      <pre><code>< ... only-mobile="true" /></code></pre>
+                  </li>
+                  <li>Displayable ONLY in NOT MOBILE browsers (desktop, laptops, tablets):
+                      <pre><code>< ... only-mobile="false" /></code></pre>
+                  </li>
+                  <li>
+                      Displayable in BOTH types of browsers:
+                      <pre><code>Just don't append anything to your html element ;)</code></pre>
+                  </li>
+              </ul>
+          </li>
+          <li>Try on your mobile and desktop browsers to see the respective elements appear/disappear in the same page!</li>
+    </ol>
+</p>
+
+<h3>Samples</h3>
+
+<p>Load this <a href="sample/app/index.html">page</a> in your phone and computer browsers to see this directive in action.</p>
+
+<p>By taking a look at that rather simple <a href="sample/app/index.html">page</a> containing this directive in use
+    you can notice the span shown only in mobile (<code>I will be shown only in mobile</code>), and the one only shown
+    in pc browsers (<code>I will be shown only in pc</code>).</p>
+
+<h3>Author and Contributors</h3>
+
+<p>This directive is created by Alejandro Carrasco (<a href="https://github.com/alejandrocarrasco" target="_blank">@alejandrocarrasco</a>) and can be used under the MIT License.</p>
+<p>The function used to check mobile browsers is the one created by <a href="http://detectmobilebrowsers.com/" target="_blank">detectmobilebrowsers.com</a>, so the credit for mobile browser detection goes to them.</p>
+
+</section>
+<footer>
+<p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+</footer>
+</div>
+<!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+</body>
+</html>

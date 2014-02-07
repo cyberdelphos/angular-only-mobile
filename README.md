@@ -1,4 +1,4 @@
-angular-only-mobile
+Angular Only Mobile
 ===================
 
 Directive for displaying different html elements on mobile and not mobile browsers using only one page.

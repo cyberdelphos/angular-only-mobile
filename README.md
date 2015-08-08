@@ -6,11 +6,11 @@ Directive for displaying different html elements on mobile and not mobile browse
 Documentation
 -------------
 
-Check the documentation of this repository at it's [GitHub Page](http://alejandrocarrasco.github.io/angular-only-mobile/ "angular-only-mobile by Alejandro Carrasco")
+Check the documentation of this repository at it's [GitHub Page](http://cyberdelphos.github.io/angular-only-mobile/ "angular-only-mobile by A. Carrasco")
 
 License
 -------
 
-Copyright 2014 Alejandro Carrasco.
+Copyright 2014 A. Carrasco.
 
 Released under MIT License.
